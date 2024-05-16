@@ -1,49 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-   xmlns:app="http://schemas.android.com/apk/res-auto"
-   xmlns:tools="http://schemas.android.com/tools"
-   android:background="@color/white"
-   android:layout_width="match_parent"
-   android:layout_height="match_parent">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
 
 
 
 
 
-   <TextView
-       android:id="@+id/text2"
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
-       android:text="會員登入"
-       android:textSize="50dp"
-       app:layout_constraintBottom_toBottomOf="parent"
-       app:layout_constraintEnd_toEndOf="parent"
-       app:layout_constraintHorizontal_bias="0.497"
-       app:layout_constraintStart_toStartOf="parent"
-       app:layout_constraintTop_toTopOf="parent"
-       app:layout_constraintVertical_bias="0.089" />
-
-
-
-
-
-
-
-
-   <EditText
-       android:id="@+id/editTextTextEmailAddress2"
-       android:layout_width="231dp"
-       android:layout_height="68dp"
-       android:ems="10"
-       android:inputType="textEmailAddress"
-       android:textSize="50dp"
-       app:layout_constraintBottom_toBottomOf="parent"
-       app:layout_constraintEnd_toEndOf="parent"
-       app:layout_constraintHorizontal_bias="0.811"
-       app:layout_constraintStart_toStartOf="parent"
-       app:layout_constraintTop_toTopOf="parent"
-       app:layout_constraintVertical_bias="0.568" />
+    <TextView
+        android:id="@+id/memberlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="會員登入"
+        android:textSize="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.089" />
 
 
 
@@ -52,19 +31,19 @@
 
 
 
-   <EditText
-       android:id="@+id/editTextTextEmailAddress"
-       android:layout_width="228dp"
-       android:layout_height="70dp"
-       android:ems="10"
-       android:inputType="textEmailAddress"
-       android:textSize="50dp"
-       app:layout_constraintBottom_toBottomOf="parent"
-       app:layout_constraintEnd_toEndOf="parent"
-       app:layout_constraintHorizontal_bias="0.814"
-       app:layout_constraintStart_toStartOf="parent"
-       app:layout_constraintTop_toTopOf="parent"
-       app:layout_constraintVertical_bias="0.311" />
+    <EditText
+        android:id="@+id/memberloginlinetwo"
+        android:layout_width="231dp"
+        android:layout_height="68dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:textSize="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.811"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.568" />
 
 
 
@@ -73,18 +52,19 @@
 
 
 
-   <TextView
-       android:id="@+id/text3"
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
-       android:text="帳號"
-       android:textSize="50dp"
-       app:layout_constraintBottom_toBottomOf="parent"
-       app:layout_constraintEnd_toEndOf="parent"
-       app:layout_constraintHorizontal_bias="0.157"
-       app:layout_constraintStart_toStartOf="parent"
-       app:layout_constraintTop_toTopOf="parent"
-       app:layout_constraintVertical_bias="0.308" />
+    <EditText
+        android:id="@+id/memberloginlineone"
+        android:layout_width="228dp"
+        android:layout_height="70dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:textSize="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.814"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.311" />
 
 
 
@@ -93,50 +73,65 @@
 
 
 
-   <TextView
-       android:id="@+id/text4"
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
-       android:text="密碼"
-       android:textSize="50dp"
-       app:layout_constraintBottom_toBottomOf="parent"
-       app:layout_constraintEnd_toEndOf="parent"
-       app:layout_constraintHorizontal_bias="0.157"
-       app:layout_constraintStart_toStartOf="parent"
-       app:layout_constraintTop_toTopOf="parent"
-       app:layout_constraintVertical_bias="0.567" />
+    <TextView
+        android:id="@+id/memberloginaccont"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="帳號"
+        android:textSize="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.157"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.308" />
 
 
 
 
-   <Button
-       android:id="@+id/memberloginlogin"
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
-       android:text="登入"
-       android:textSize="50dp"
-       app:layout_constraintBottom_toBottomOf="parent"
-       app:layout_constraintEnd_toEndOf="parent"
-       app:layout_constraintHorizontal_bias="0.874"
-       app:layout_constraintStart_toStartOf="parent"
-       app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress2"
-       app:layout_constraintVertical_bias="0.448" />
 
 
-   <Button
-       android:id="@+id/memberloginsignup"
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
-       android:text="註冊"
-       android:textSize="50dp"
-       app:layout_constraintBottom_toBottomOf="parent"
-       app:layout_constraintEnd_toEndOf="parent"
-       app:layout_constraintHorizontal_bias="0.181"
-       app:layout_constraintStart_toStartOf="parent"
-       app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress2"
-       app:layout_constraintVertical_bias="0.448" />
 
 
+    <TextView
+        android:id="@+id/memberloginpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="密碼"
+        android:textSize="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.157"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.567" />
+
+
+    <Button
+        android:id="@+id/memberloginlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="登入"
+        android:textSize="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.87"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.923" />
+
+    <Button
+        android:id="@+id/memberloginsignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="註冊"
+        android:textSize="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.187"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.924" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
