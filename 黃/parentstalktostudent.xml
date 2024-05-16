@@ -10,7 +10,7 @@
 
 
    <ImageView
-       android:id="@+id/imageView"
+       android:id="@+id/parentstalktostudentyellowbackground1"
        android:layout_width="525dp"
        android:layout_height="300dp"
        android:scaleType="centerCrop"
@@ -24,7 +24,7 @@
 
 
    <ImageView
-       android:id="@+id/imageView"
+       android:id="@+id/parentstalktostudentyellowbackground2"
        android:layout_width="476dp"
        android:layout_height="258dp"
        android:scaleType="centerCrop"
@@ -116,7 +116,7 @@
 
 
    <Button
-       android:id="@+id/btn1"
+       android:id="@+id/parentstalktostudentdate"
        android:layout_width="229dp"
        android:layout_height="62dp"
        android:background="@color/cardview_dark_background"
@@ -133,7 +133,7 @@
 
 
    <Button
-       android:id="@+id/btn2"
+       android:id="@+id/parentstalktostudentname"
        android:layout_width="100dp"
        android:layout_height="62dp"
        android:background="@color/cardview_dark_background"
@@ -163,7 +163,7 @@
 
 
    <ImageButton
-       android:id="@+id/imageButton1"
+       android:id="@+id/parentstalktostudentvolume1"
        android:layout_width="54dp"
        android:layout_height="53dp"
        android:background="#00000000"
@@ -179,7 +179,7 @@
 
 
    <ImageButton
-       android:id="@+id/imageButton2"
+       android:id="@+id/parentstalktostudentvolume2"
        android:layout_width="54dp"
        android:layout_height="53dp"
        android:background="#00000000"
@@ -215,7 +215,7 @@
 
 
    <ImageButton
-       android:id="@+id/imageButton4"
+       android:id="@+id/parentstalktostudentkeyboard"
        android:layout_width="68dp"
        android:layout_height="51dp"
        android:background="#00000000"
@@ -232,7 +232,7 @@
 
 
    <ImageButton
-       android:id="@+id/imageButton6"
+       android:id="@+id/parentstalktostudentform"
        android:layout_width="94dp"
        android:layout_height="82dp"
        android:background="#00000000"
@@ -253,7 +253,7 @@
 
 
    <ImageButton
-       android:id="@+id/imageButton7"
+       android:id="@+id/parentstalktostudentmike"
        android:layout_width="55dp"
        android:layout_height="54dp"
        android:background="#00000000"
