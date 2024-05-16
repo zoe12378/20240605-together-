@@ -10,7 +10,7 @@
 
 
     <ImageView
-        android:id="@+id/parentstalktostudentyellowbackground2"
+        android:id="@+id/parentstalktostudentyellowbackgroundtwo"
         android:layout_width="525dp"
         android:layout_height="300dp"
         android:scaleType="centerCrop"
@@ -24,7 +24,7 @@
 
 
     <ImageView
-        android:id="@+id/parentstalktostudentyellowbackground1"
+        android:id="@+id/parentstalktostudentyellowbackgroundone"
         android:layout_width="476dp"
         android:layout_height="258dp"
         android:scaleType="centerCrop"
@@ -40,7 +40,7 @@
 
 
     <TextView
-        android:id="@+id/text1"
+        android:id="@+id/parentstalktostudent"
         android:layout_width="262dp"
         android:layout_height="86dp"
         android:text="與孩子互動"
@@ -60,7 +60,7 @@
 
 
     <TextView
-        android:id="@+id/text2"
+        android:id="@+id/parentstalktostudentcommetone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="孩子的留言"
@@ -104,7 +104,7 @@
         app:srcCompat="@drawable/homework" />
 
     <TextView
-        android:id="@+id/text3"
+        android:id="@+id/parentstalktostudentwordone"
         android:layout_width="372dp"
         android:layout_height="99dp"
         android:text="今天非常開心~"
@@ -120,7 +120,7 @@
 
 
     <TextView
-        android:id="@+id/text4"
+        android:id="@+id/parentstalktostudenttwo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="給孩子的話"
@@ -172,7 +172,7 @@
 
 
     <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/textInputEditText"
+        android:id="@+id/parentstalktostudentwordtwo"
         android:layout_width="362dp"
         android:layout_height="56dp"
         android:hint="新增留言"
@@ -187,7 +187,7 @@
 
 
     <ImageButton
-        android:id="@+id/parentstalktostudentvolume1"
+        android:id="@+id/parentstalktostudentvolumeone"
         android:layout_width="54dp"
         android:layout_height="53dp"
         android:background="#00000000"
@@ -203,7 +203,7 @@
 
 
     <ImageButton
-        android:id="@+id/parentstalktostudentvolume2"
+        android:id="@+id/parentstalktostudentvolumetwo"
         android:layout_width="54dp"
         android:layout_height="53dp"
         android:background="#00000000"
