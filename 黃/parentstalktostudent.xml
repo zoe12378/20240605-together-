@@ -10,9 +10,9 @@
 
 
     <ImageView
-        android:id="@+id/parentstalktoteacheryellowbackground2"
-        android:layout_width="541dp"
-        android:layout_height="306dp"
+        android:id="@+id/parentstalktostudentyellowbackground2"
+        android:layout_width="525dp"
+        android:layout_height="300dp"
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -24,7 +24,7 @@
 
 
     <ImageView
-        android:id="@+id/parentstalktoteacheryellowbackground1"
+        android:id="@+id/parentstalktostudentyellowbackground1"
         android:layout_width="476dp"
         android:layout_height="258dp"
         android:scaleType="centerCrop"
@@ -43,7 +43,7 @@
         android:id="@+id/text1"
         android:layout_width="262dp"
         android:layout_height="86dp"
-        android:text="與老師互動"
+        android:text="與孩子互動"
         android:textSize="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -55,40 +55,59 @@
 
 
 
-    <Button
-        android:id="@+id/parentstalktoteachername"
-        android:layout_width="168dp"
-        android:layout_height="64dp"
-        android:background="@color/cardview_dark_background"
-        android:text="蘋果老師"
-        android:textSize="25dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.243" />
+
+
 
 
     <TextView
         android:id="@+id/text2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="老師的留言"
+        android:text="孩子的留言"
         android:textSize="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.099"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.216" />
+        app:layout_constraintVertical_bias="0.229" />
 
+
+
+    <ImageView
+        android:id="@+id/parentstalktostudentpeople"
+        android:layout_width="74dp"
+        android:layout_height="56dp"
+        android:background="#00000000"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.789"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.142"
+        app:srcCompat="@drawable/people" />
+
+
+    <ImageView
+        android:id="@+id/parentstalktostudenthomework"
+        android:layout_width="54dp"
+        android:layout_height="58dp"
+        android:background="#00000000"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.98"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.139"
+        app:srcCompat="@drawable/homework" />
 
     <TextView
         android:id="@+id/text3"
         android:layout_width="372dp"
         android:layout_height="99dp"
-        android:text="小明今天有按時吃藥，整體表現佳"
+        android:text="今天非常開心~"
         android:textSize="35dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -104,18 +123,24 @@
         android:id="@+id/text4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="給老師的話"
+        android:text="給孩子的話"
         android:textSize="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.074"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.685" />
 
 
+
+
+
+
+
+
     <Button
-        android:id="@+id/parentstalktoteacherdate"
+        android:id="@+id/parentstalktostudentdate"
         android:layout_width="229dp"
         android:layout_height="62dp"
         android:background="@color/cardview_dark_background"
@@ -129,6 +154,21 @@
         app:layout_constraintVertical_bias="0.14" />
 
 
+
+
+    <Button
+        android:id="@+id/parentstalktostudentname"
+        android:layout_width="100dp"
+        android:layout_height="62dp"
+        android:background="@color/cardview_dark_background"
+        android:text="小明"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.948"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.241" />
 
 
     <com.google.android.material.textfield.TextInputEditText
@@ -147,7 +187,7 @@
 
 
     <ImageButton
-        android:id="@+id/parentstalktoteachervolume1"
+        android:id="@+id/parentstalktostudentvolume1"
         android:layout_width="54dp"
         android:layout_height="53dp"
         android:background="#00000000"
@@ -163,7 +203,7 @@
 
 
     <ImageButton
-        android:id="@+id/parentstalktoteachervolume2"
+        android:id="@+id/parentstalktostudentvolume2"
         android:layout_width="54dp"
         android:layout_height="53dp"
         android:background="#00000000"
@@ -178,28 +218,8 @@
 
 
 
-
     <ImageButton
-        android:id="@+id/imageButton3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#00000000"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.569"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.976"/>
-
-
-
-
-
-
-
-
-    <ImageButton
-        android:id="@+id/parentstalktoteacherkeyboard"
+        android:id="@+id/parentstalktostudentkeyboard"
         android:layout_width="68dp"
         android:layout_height="51dp"
         android:background="#00000000"
@@ -216,7 +236,7 @@
 
 
     <ImageButton
-        android:id="@+id/parentstalktoteacherform"
+        android:id="@+id/parentstalktostudentform"
         android:layout_width="94dp"
         android:layout_height="82dp"
         android:background="#00000000"
@@ -237,7 +257,7 @@
 
 
     <ImageButton
-        android:id="@+id/parentstalktoteachermike"
+        android:id="@+id/parentstalktostudentmike"
         android:layout_width="55dp"
         android:layout_height="54dp"
         android:background="#00000000"
