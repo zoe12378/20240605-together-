@@ -110,7 +110,7 @@
 
 
    <Button
-       android:id="@+id/button"
+       android:id="@+id/memberloginlogin"
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
        android:text="登入"
@@ -124,7 +124,7 @@
 
 
    <Button
-       android:id="@+id/button2"
+       android:id="@+id/memberloginsignup"
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
        android:text="註冊"
