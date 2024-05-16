@@ -14,7 +14,7 @@
 
 
     <TextView
-        android:id="@+id/text1"
+        android:id="@+id/teachertoparents"
         android:layout_width="291dp"
         android:layout_height="96dp"
         android:text="與家長互動"
@@ -27,12 +27,6 @@
         app:layout_constraintVertical_bias="0.023" />
 
 
-
-
-
-
-
-
     <ImageButton
         android:id="@+id/teachertoparentsform"
         android:layout_width="65dp"
@@ -40,43 +34,43 @@
         android:background="#00000000"
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/text1"
-        app:layout_constraintHorizontal_bias="0.64"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.046"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.022"
+        app:layout_constraintVertical_bias="0.024"
         app:srcCompat="@drawable/form" />
 
 
-
-
-
-
-
-
     <Button
-        android:id="@+id/teachertoparentscontact1"
+        android:id="@+id/teachertoparentscontactone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="60dp"
         android:text="互動"
         android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1"
-        app:layout_constraintStart_toEndOf="@+id/text2"
+        app:layout_constraintHorizontal_bias="0.801"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.19" />
-
-
-
-
-
-
+        app:layout_constraintVertical_bias="0.185" />
 
 
     <Button
-        android:id="@+id/teachertoparentscontact2"
+        android:id="@+id/teachertoparentscontacttwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="互動"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.801"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.29" />
+
+    <Button
+        android:id="@+id/teachertoparentscontactthree"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="60dp"
@@ -85,24 +79,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/text3"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.295" />
-
-
-
-
-    <Button
-        android:id="@+id/teachertoparentscontact3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="60dp"
-        android:text="互動"
-        android:textSize="30dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/text4"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.397" />
 
@@ -110,7 +86,7 @@
 
 
     <Button
-        android:id="@+id/teachertoparentscontact4"
+        android:id="@+id/teachertoparentscontactfour"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="60dp"
@@ -119,7 +95,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/text5"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.50" />
 
@@ -127,7 +102,7 @@
 
 
     <Button
-        android:id="@+id/teachertoparentscontact5"
+        android:id="@+id/teachertoparentscontactfive"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="60dp"
@@ -136,7 +111,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.968"
-        app:layout_constraintStart_toEndOf="@+id/text6"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.603" />
 
@@ -144,7 +118,7 @@
 
 
     <Button
-        android:id="@+id/teachertoparentscontact6"
+        android:id="@+id/teachertoparentscontactsive"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="60dp"
@@ -153,7 +127,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.968"
-        app:layout_constraintStart_toEndOf="@+id/text7"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.705" />
 
@@ -161,7 +134,7 @@
 
 
     <Button
-        android:id="@+id/teachertoparentscontact7"
+        android:id="@+id/teachertoparentscontactseven"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="60dp"
@@ -170,32 +143,26 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.968"
-        app:layout_constraintStart_toEndOf="@+id/text8"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.808" />
 
 
-
-
     <Button
-        android:id="@+id/teachertoparentscontact8"
+        android:id="@+id/teachertoparentscontacteight"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="60dp"
         android:text="互動"
         android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.968"
-        app:layout_constraintStart_toEndOf="@+id/text9"
+        app:layout_constraintHorizontal_bias="0.801"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.911" />
-
-
+        app:layout_constraintVertical_bias="0.916" />
 
 
     <TextView
-        android:id="@+id/text2"
+        android:id="@+id/teachertoparentswordone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="01 小明家長"
@@ -205,13 +172,10 @@
         app:layout_constraintHorizontal_bias="0.2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.18" />
-
-
-
+        app:layout_constraintVertical_bias="0.199" />
 
     <TextView
-        android:id="@+id/text3"
+        android:id="@+id/teachertoparentswordtwo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="01 小明家長"
@@ -227,7 +191,7 @@
 
 
     <TextView
-        android:id="@+id/text6"
+        android:id="@+id/teachertoparentswordfive"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="01 小明家長"
@@ -243,7 +207,7 @@
 
 
     <TextView
-        android:id="@+id/text7"
+        android:id="@+id/teachertoparentswordsix"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="01 小明家長"
@@ -259,7 +223,7 @@
 
 
     <TextView
-        android:id="@+id/text8"
+        android:id="@+id/teachertoparentswordseven"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="01 小明家長"
@@ -275,7 +239,7 @@
 
 
     <TextView
-        android:id="@+id/text5"
+        android:id="@+id/teachertoparentswordfour"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="01 小明家長"
@@ -291,7 +255,7 @@
 
 
     <TextView
-        android:id="@+id/text9"
+        android:id="@+id/teachertoparentswordeight"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="01 小明家長"
@@ -307,7 +271,7 @@
 
 
     <TextView
-        android:id="@+id/text4"
+        android:id="@+id/teachertoparentswordthree"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="01 小明家長"
