@@ -36,7 +36,7 @@
 
 
    <Button
-       android:id="@+id/btn"
+       android:id="@+id/identitychoicestudent"
        android:layout_width="183dp"
        android:layout_height="176dp"
        android:text="學生"
@@ -53,10 +53,10 @@
 
 
    <Button
-       android:id="@+id/btn5"
+       android:id="@+id/identitychoiceparent"
        android:layout_width="183dp"
        android:layout_height="176dp"
-       android:text="學生"
+       android:text="家長"
        android:textSize="50dp"
        app:layout_constraintBottom_toBottomOf="parent"
        app:layout_constraintEnd_toEndOf="parent"
@@ -70,10 +70,10 @@
 
 
    <Button
-       android:id="@+id/btn6"
+       android:id="@+id/identitychoiceteacher"
        android:layout_width="183dp"
        android:layout_height="176dp"
-       android:text="學生"
+       android:text="老師"
        android:textSize="50dp"
        app:layout_constraintBottom_toBottomOf="parent"
        app:layout_constraintEnd_toEndOf="parent"
