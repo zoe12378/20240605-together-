@@ -10,7 +10,7 @@
 
 
     <ImageView
-        android:id="@+id/parentstalktostudentyellowbackgroundtwo"
+        android:id="@+id/parentstalktoteacheryellowbackgroundtwo"
         android:layout_width="525dp"
         android:layout_height="300dp"
         android:scaleType="centerCrop"
@@ -24,7 +24,7 @@
 
 
     <ImageView
-        android:id="@+id/parentstalktostudentyellowbackgroundone"
+        android:id="@+id/parentstalktoteacheryellowbackgroundone"
         android:layout_width="476dp"
         android:layout_height="258dp"
         android:scaleType="centerCrop"
@@ -40,7 +40,7 @@
 
 
     <TextView
-        android:id="@+id/parentstalktostudent"
+        android:id="@+id/parentstalktoteacher"
         android:layout_width="262dp"
         android:layout_height="86dp"
         android:text="與孩子互動"
@@ -54,13 +54,12 @@
 
 
 
-
-
+    @@ -59,22 +59,22 @@
 
 
 
     <TextView
-        android:id="@+id/parentstalktostudentcommetone"
+        android:id="@+id/parentstalktoteachercommetone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="孩子的留言"
@@ -75,22 +74,16 @@
 
 
     <ImageView
-        android:id="@+id/parentstalktostudentpeople"
+        android:id="@+id/parentstalktoteacherpeople"
         android:layout_width="74dp"
         android:layout_height="56dp"
-        android:background="#00000000"
-        android:scaleType="centerCrop"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.789"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.142"
-        app:srcCompat="@drawable/people" />
+    @@ -88,189 +88,187 @@
+    app:layout_constraintVertical_bias="0.142"
+    app:srcCompat="@drawable/people" />
 
 
     <ImageView
-        android:id="@+id/parentstalktostudenthomework"
+        android:id="@+id/parentstalktoteacherhomework"
         android:layout_width="54dp"
         android:layout_height="58dp"
         android:background="#00000000"
@@ -104,7 +97,7 @@
         app:srcCompat="@drawable/homework" />
 
     <TextView
-        android:id="@+id/parentstalktostudentwordone"
+        android:id="@+id/parentstalktoteacherwordone"
         android:layout_width="372dp"
         android:layout_height="99dp"
         android:text="今天非常開心~"
@@ -120,7 +113,7 @@
 
 
     <TextView
-        android:id="@+id/parentstalktostudenttwo"
+        android:id="@+id/parentstalktoteachercommettwo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="給孩子的話"
@@ -140,7 +133,7 @@
 
 
     <Button
-        android:id="@+id/parentstalktostudentdate"
+        android:id="@+id/parentstalktoteacherdate"
         android:layout_width="229dp"
         android:layout_height="62dp"
         android:background="@color/cardview_dark_background"
@@ -157,7 +150,7 @@
 
 
     <Button
-        android:id="@+id/parentstalktostudentname"
+        android:id="@+id/parentstalktoteachername"
         android:layout_width="100dp"
         android:layout_height="62dp"
         android:background="@color/cardview_dark_background"
@@ -172,7 +165,7 @@
 
 
     <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/parentstalktostudentwordtwo"
+        android:id="@+id/parentstalktoteacherwordtwo"
         android:layout_width="362dp"
         android:layout_height="56dp"
         android:hint="新增留言"
@@ -187,7 +180,7 @@
 
 
     <ImageButton
-        android:id="@+id/parentstalktostudentvolumeone"
+        android:id="@+id/parentstalktoteachervolumeone"
         android:layout_width="54dp"
         android:layout_height="53dp"
         android:background="#00000000"
@@ -203,7 +196,7 @@
 
 
     <ImageButton
-        android:id="@+id/parentstalktostudentvolumetwo"
+        android:id="@+id/parentstalktoteachervolumetwo"
         android:layout_width="54dp"
         android:layout_height="53dp"
         android:background="#00000000"
@@ -219,7 +212,7 @@
 
 
     <ImageButton
-        android:id="@+id/parentstalktostudentkeyboard"
+        android:id="@+id/parentstalktoteacherkeyboard"
         android:layout_width="68dp"
         android:layout_height="51dp"
         android:background="#00000000"
@@ -236,7 +229,7 @@
 
 
     <ImageButton
-        android:id="@+id/parentstalktostudentform"
+        android:id="@+id/parentstalktoteacherform"
         android:layout_width="94dp"
         android:layout_height="82dp"
         android:background="#00000000"
@@ -257,7 +250,7 @@
 
 
     <ImageButton
-        android:id="@+id/parentstalktostudentmike"
+        android:id="@+id/parentstalktoteachermike"
         android:layout_width="55dp"
         android:layout_height="54dp"
         android:background="#00000000"
@@ -269,12 +262,3 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.955"
         app:srcCompat="@drawable/mm" />
-
-
-
-
-
-
-
-
-</androidx.constraintlayout.widget.ConstraintLayout>
